@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/assets/font/font-text/Montserrat-Regular.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/tgdmin/repository-name/master/assets/font/font-text/Montserrat-Regular.ttf');
   }
   
   @font-face {
