@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+   <div id="main">
+        <div id="header">
+            <div class="logo">
+                <div class="logo-text">
+                    <a href="">mnmlst.</a>
+                </div>
+            </div>
+
+            <div id="nav">
+                <div class="nav-list">
+                <ul class="nav-lst">
+                    <li class="nav-item"><a href="">Home</a></li>
+                    <li class="nav-item"><a href="">Product</a></li>
+                    <li class="nav-item"><a href="">Store</a></li>
+                    <li class="nav-item"><a href="">About us</a></li>
+                </ul>
+                </div>
+            </div>
+            
+            <div class="list-button">
+                <a href="">
+                    <i class="ti-align-justify"></i>
+                </a>
+                <ul class="sidebar"> <h2 class="title-list">Collections</h2>
+                    <li class="side-item">
+                        <a class="most-wanted" href="">Most Wanted</a>
+                    </li>
+
+                    <li class="side-item">
+                        <a class="new-arrivals" href="">New Arrivals</a>
+                    </li>
+
+                    <li class="side-item">
+                        <a class="back-in-stock" href="">Back In Stock</a>
+                    </li>
+
+                    <li class="side-item">
+                        <a class="training" href="">Training</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="content-section">
+                <div class="slogan-paragraph">
+                    <p class="slogan-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptates cum perspiciatis distinctio iusto quos exercitationem obcaecati facilis non. Quia nobis vero deserunt est. Deserunt beatae quidem itaque! Ipsa, modi.</p>
+                    <p class="read-more"><a href="">Read More</a></p>
+                </div>
+
+                <div class="img">
+                    <div class="box"></div>
+                        <img src="/assets/img/content-img/content-img2.png" alt="" class="content-img">
+                </div>
+               
+                <div class="big-slogan">
+                    <h1 class="b-slogan">less is more.</h1>
+                </div>
+
+                <div class="media-link">
+                    <ul class="media-icon">
+                        <li class="icon ">
+                            <a href="" class="i-fb">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="" class="i-ins">
+                                <i class="ti-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="icon ">
+                            <a href="" class="i-tw">
+                                <i class="ti-twitter-alt"></i>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="" class="i-tm">
+                                <i class="ti-tumblr-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="copyright">
+                    <p class="cpr">Copyright <a href="">@tgdmin</a></p>
+                </div>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 1800px) and (min-width: 1400px) {
+                #content .slogan-paragraph {
+                    margin-top: 200px;
+                    margin-left: 100px;
+                }
+                .content-section {
+                    height: 795px;
+                }
+            }
+
+            @media (max-width: 1400px) and (min-width: 1100px) {
+                #content .slogan-paragraph {
+                    display: none;
+                }
+                .content-section {
+                    height: 795px;
+                }
+            }
+
+            @media (max-width: 1100px) and (min-width: 800px) {
+                #content .slogan-paragraph p {
+                    display: none;
+                }
+
+                .media-icon .icon {
+                    float: none;
+                    padding-top: 15px;
+                }
+
+                .content-section {
+                    height: 1180px;
+                    
+                }
+
+                .big-slogan {
+                    display: inline-block;
+                    position: absolute;
+                    top: 63%;
+                    left: 38%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .content-section .img {
+                    padding-left: 125px;
+                    width: 820px;
+                }
+            }
+
+            @media (max-width: 800px ) {
+                
+
+                #content .slogan-paragraph p {
+                    display: none;
+                }
+
+                .media-icon .icon {
+                    float: none;
+                    padding-top: 25px;
+                    
+                }
+
+                .media-icon .icon a {
+                    font-size: 20px;
+                    margin-left: -25px;
+                }
+
+                .content-section {
+                    height: 844px;
+                    width: 390px;
+
+                }
+
+                .big-slogan {
+                    display: inline-block;
+                    position: absolute;
+                    top: 25%;
+                    left: 32%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .big-slogan .b-slogan {
+                    font-size: 50px;
+                    width: 200px;
+                    line-height: 35px;
+                }
+
+                .copyright {
+                    margin-bottom: -40px;
+                    margin-right: 55px;
+                }
+
+                #nav {
+                    display: none;
+                }
+
+                #content {
+                    height: 844px;
+                    width: 390px;
+                }
+
+                .content-section .box {
+                    width: 380px;
+                    height: 380px;
+                }
+
+                .content-section .content-img {
+                    height: 730px;
+                    width: 390px;
+                    margin-top: 90px;
+                    margin-left: 40px;
+                }
+            }
+        </style>
+   </div>
+</body>
+</html>
