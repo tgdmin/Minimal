@@ -9,18 +9,15 @@
 }
 
 @font-face {
-    font-family: montserrat;
-    src: url("/assets/font/font-text/Montserrat-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: montserrat-bold;
-    src: url("/assets/font/font-text/Montserrat-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
+    font-family: 'Montserrat';
+    src: url('/assets/font/font-text/Montserrat-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/assets/font/font-text/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
 
 html {
     font-family: montserrat;
