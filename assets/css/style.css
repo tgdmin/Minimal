@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: montserrat;
-    src: url(/assets/font/font-text/Montserrat-Regular.ttf);
+    src: url(./assets/font/font-text/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: montserrat-bold;
-    src: url(/assets/font/font-text/Montserrat-Bold.ttf);
+    src: url(./assets/font/font-text/Montserrat-Bold.ttf);
 }
 
 html {
