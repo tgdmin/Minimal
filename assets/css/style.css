@@ -15,8 +15,7 @@
   
   @font-face {
     font-family: 'Montserrat-Bold';
-    src: url('/assets/font/font-text/Montserrat-Bold.ttf') format('truetype');
-    font-weight: bold;
+    src: url('https://raw.githubusercontent.com/tgdmin/Minimal/master/assets/font/font-text/Montserrat-Bold.ttf');
   }
 
 html {
